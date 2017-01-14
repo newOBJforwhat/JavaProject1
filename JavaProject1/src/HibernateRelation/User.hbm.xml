@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-8-16 14:48:03 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="HibernateRelation.User" table="USER">
+        <id name="userid" type="int" access="field">
+            <column name="USERID" />
+            <!--由关联类来生成主键 -->
+            <generator class="foreign" >
+            	<param name="property">address</param>
+            </generator>
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <!--基于主键的一对一映射-->
+        <one-to-one name="address" class="HibernateRelation.Address" constrained="true">
+        </one-to-one>
+    </class>
+</hibernate-mapping>

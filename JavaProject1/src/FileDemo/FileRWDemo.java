@@ -39,7 +39,6 @@ public class FileRWDemo {
 //			fous.write(b);
 //			fous.write(b);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
 			try {
@@ -48,7 +47,6 @@ public class FileRWDemo {
 				if(fous != null)
 					fous.close();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			

@@ -2,7 +2,7 @@ package DynamicProgramming;
 
 /**
  * 
- * @author MacBook
+ * @author ctk
  *  Problem Statement
  * 
  *         You are planting a flower garden with bulbs to give you joyous

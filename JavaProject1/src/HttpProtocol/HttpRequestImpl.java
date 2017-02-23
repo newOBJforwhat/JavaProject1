@@ -18,7 +18,7 @@ import java.net.UnknownHostException;
 public class HttpRequestImpl {
 	private final static String encoding = "GBK";
 	public static void main(String[] args) throws UnknownHostException, IOException {
-		String host = "www.163.com";
+		String host = "www.taobao.com";
 		int port = 80;
 		Socket request = new Socket(host,port);
 		OutputStreamWriter out = new OutputStreamWriter(request.getOutputStream());

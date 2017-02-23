@@ -1,15 +1,18 @@
-HTTP/1.1 400 Bad Request
-Server: bfe/1.0.8.18
-Date: Tue, 03 Jan 2017 05:57:22 GMT
+HTTP/1.1 302 Found
+Server: Tengine
+Date: Tue, 21 Feb 2017 07:40:45 GMT
 Content-Type: text/html
-Content-Length: 271
+Content-Length: 258
 Connection: close
+Location: https://www.taobao.com/
+Set-Cookie: thw=cn; Path=/; Domain=.taobao.com; Expires=Wed, 21-Feb-18 07:40:45 GMT;
+Strict-Transport-Security: max-age=31536000
 
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html>
-<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>
+<head><title>302 Found</title></head>
 <body bgcolor="white">
-<center><h1>400 Bad Request</h1></center>
-<center>The plain HTTP request was sent to HTTPS port</center>
-<hr><center>bfe/1.0.8.18</center>
-</body>
+<h1>302 Found</h1>
+<p>The requested resource resides temporarily under a different URI.</p>
+<hr/>Powered by Tengine</body>
 </html>

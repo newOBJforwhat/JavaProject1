@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-8-16 16:49:52 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="HibernateRelation.User2" table="USER2">
+        <id name="userid" type="int">
+            <column name="USERID" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <many-to-one name="address2" class="HibernateRelation.Address2" fetch="join" unique="true">
+            <column name="ADDRESS2" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>

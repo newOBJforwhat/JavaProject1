@@ -13,5 +13,7 @@
 	<classpathentry kind="lib" path="/Users/MacBook/Documents/杂包/JSONObject所必须的6个包/JSONObject所必须的6个包/commons-lang-2.5.jar"/>
 	<classpathentry kind="lib" path="/Users/MacBook/Documents/杂包/JSONObject所必须的6个包/JSONObject所必须的6个包/commons-logging.jar"/>
 	<classpathentry kind="lib" path="/Users/MacBook/Documents/杂包/JSONObject所必须的6个包/JSONObject所必须的6个包/ezmorph-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/Users/MacBook/Documents/后端框架包/mybatis-3.4.2/lib/cglib-3.2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/MacBook/Documents/后端框架包/mybatis-3.4.2/lib/asm-5.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

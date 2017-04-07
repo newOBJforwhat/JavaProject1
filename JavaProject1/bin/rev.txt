@@ -1,18 +1,16 @@
-HTTP/1.1 302 Found
-Server: Tengine
-Date: Tue, 21 Feb 2017 07:40:45 GMT
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 13 Mar 2017 08:13:47 GMT
 Content-Type: text/html
-Content-Length: 258
+Content-Length: 178
 Connection: close
-Location: https://www.taobao.com/
-Set-Cookie: thw=cn; Path=/; Domain=.taobao.com; Expires=Wed, 21-Feb-18 07:40:45 GMT;
-Strict-Transport-Security: max-age=31536000
+Location: https://movie.douban.com/
+Server: dae
+X-Content-Type-Options: nosniff
 
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html>
-<head><title>302 Found</title></head>
+<head><title>301 Moved Permanently</title></head>
 <body bgcolor="white">
-<h1>302 Found</h1>
-<p>The requested resource resides temporarily under a different URI.</p>
-<hr/>Powered by Tengine</body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
 </html>
